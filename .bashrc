@@ -28,11 +28,6 @@ then
    ssh-add -l > /dev/null || alias ssh='ssh-add -l > /dev/null || ssh-add && unalias ssh; ssh'
 fi
 
-# add media aliases
-if [ -f ~/.bash_media ]; then
-    source ~/.bash_media
-fi
-
 # User specific aliases and functions
 # aliases
 alias tmuxx='tmux at'
