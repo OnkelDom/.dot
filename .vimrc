@@ -20,7 +20,8 @@ set hlsearch
 set laststatus=2
 
 set t_Co=256
-colorscheme atom-dark-256
+" colorscheme
+colorscheme slate
 
 filetype on
 filetype plugin on
