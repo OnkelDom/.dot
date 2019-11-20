@@ -1,5 +1,4 @@
 # .bashrc
-export TERM=xterm
 
 # Source global definitions
 if [ -f /etc/bashrc ]; then
