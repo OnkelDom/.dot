@@ -12,12 +12,13 @@ export PATH
 # Fix file deletion for ATOM Editor
 export ELECTRON_TRASH="gio"
 
-# Use Powerline
-if [ -f `which powerline-daemon` ]; then
-  powerline-daemon -q
-  POWERLINE_BASH_CONTINUATION=1
-  POWERLINE_BASH_SELECT=1
-  . /usr/share/powerline/bash/powerline.sh
+# Powerline GO
+function _update_ps1() {
+    PS1="$(/usr/local/bin/powerline-go -error $? -shell bash -hostname-only-if-ssh)"
+}
+
+if [ "$TERM" != "linux" ] && [ -f "/usr/local/bin/powerline-go" ]; then
+    PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
 fi
 
 # find ssh-agent
@@ -33,3 +34,4 @@ alias tmuxx='tmux at'
 alias takeover="tmux detach -a"
 alias pbcopy="xclip -selection clipboard"
 alias pbpaste="xclip -selection clipboard -o"
+alias azuresquid="10.63.32.68"

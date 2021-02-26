@@ -82,5 +82,9 @@
 [credential]
 	helper = store
 [user]
-	email = onkeldom@gmail.com
+	email = Dominik.Lenhardt@dvag.com
 	name = Dominik Lenhardt
+[http "https://git.onkeldom.eu"]
+	proxy = http://proxy-client.infra.dvag.net:3128
+[http "https://dvagazure.visualstudio"]
+	proxy = http://proxy-client.infra.dvag.net:3128

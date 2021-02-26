@@ -1,3 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
-let g:netrw_dirhist_1='/usr/share/powerline/shell'
+let g:netrw_dirhistcnt =8
+let g:netrw_dirhist_8='/home/p13sp36/git/dvag/ansible-proxy/roles/ansible-role-sockd2/templates'
+let g:netrw_dirhist_7='/home/p13sp36/git/dvag/foundation/hieradata/2_roles/dns_master'
+let g:netrw_dirhist_6='/home/p13sp36/git/dvag/create_hosts/hosts/mon'
+let g:netrw_dirhist_5='/home/p13sp36/git/dvag/ansible-proxy/roles/ansible-role-promtail/defaults'
+let g:netrw_dirhist_4='/home/p13sp36/git/dvag/ansible-proxy/roles/ansible-role-pac/defaults'
+let g:netrw_dirhist_3='/home/p13sp36/git/dvag/ansible-proxy/roles/ansible-role-squid/files/proxy_clients'
+let g:netrw_dirhist_2='/home/p13sp36/git/dvag/buildmaster/dockerfiles/vmware_exporter'
+let g:netrw_dirhist_1='/home/p13sp36/git/dvag/buildmaster/dockerfiles/distroless_blackbox_exporter'
